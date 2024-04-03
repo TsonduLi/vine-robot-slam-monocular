@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Enabling RGB-D and IMU data processing -->
+  <arg name="stereo" default="false"/>
+  <arg name="depth" default="true"/>
+  <arg name="subscribe_rgb" default="true"/>
+
+  <!-- Enabling visualization in RViz -->
+  <arg name="rtabmap_viz" default="false" /> <!-- Disable RTAB-Map's own visualization to use RViz -->
+  <arg name="rviz" default="true" />
+
+  <!-- Localization-only mode remains unchanged, assuming mapping and localization are both desired -->
+  <arg name="localization" default="false"/>
+  
+  <!-- Using simulation time if required, assuming false for live operation -->
+  <arg name="use_sim_time" default="false"/>
+  
+  <!-- Path to custom configuration files if needed -->
+  <arg name="cfg" default="" /> <!-- Path to a custom RTAB-Map config file if you have one -->
+  
+  <!-- Frame IDs and topics configuration -->
+  <arg name="frame_id" default="camera_link"/>
+  <arg name="odom_frame_id" default="imu_frame"/> <!-- Assuming odometry is derived from IMU -->
+  <arg name="map_frame_id" default="map"/>
+  
+  <!-- Ensuring the namespace is correctly set for RTAB-Map -->
+  <arg name="namespace" default="rtabmap"/>
+  
+  <!-- Database path for storing map data -->
+  <arg name="database_path" default="~/.ros/rtabmap.db"/>
+  
+  <!-- Configuration for RGB-D processing -->
+  <arg name="rgb_topic" default="/camera/rgb/image_rect_color" />
+  <arg name="depth_topic" default="/camera/depth_registered/image" />
+  
+  <!-- Removing camera_info_topic and depth_camera_info_topic as they are not used -->
+  
+  <!-- Enabling PointCloud2 format for mapping -->
+  <arg name="gen_cloud" default="true"/>
+  <arg name="gen_cloud_decimation" default="4"/>
+  <arg name="gen_cloud_voxel" default="0.05"/>
+
+  <!-- IMU data subscription -->
+  <arg name="imu_topic" default="/imu/data"/>
+  
+  <!-- RViz configuration -->
+  <arg name="rviz_cfg" default="$(find rtabmap_launch)/launch/config/rgbd.rviz" /> <!-- Ensure this path points to a valid RViz config file tailored for your setup -->
+
+  <!-- Include the main RTAB-Map launch file with the updated arguments -->
+  <include file="$(find rtabmap_launch)/launch/rtabmap.launch">
+    <!-- Pass all configured arguments -->
+    <arg name="stereo" value="$(arg stereo)"/>
+    <arg name="depth" value="$(arg depth)"/>
+    <arg name="subscribe_rgb" value="$(arg subscribe_rgb)"/>
+    <arg name="rtabmap_viz" value="$(arg rtabmap_viz)" />
+    <arg name="rviz" value="$(arg rviz)" />
+    <arg name="localization" value="$(arg localization)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="cfg" value="$(arg cfg)" />
+    <arg name="frame_id" value="$(arg frame_id)"/>
+    <arg name="odom_frame_id" value="$(arg odom_frame_id)"/>
+    <arg name="map_frame_id" value="$(arg map_frame_id)"/>
+    <arg name="namespace" value="$(arg namespace)"/>
+    <arg name="database_path" value="$(arg database_path)"/>
+    <arg name="rgb_topic" value="$(arg rgb_topic)" />
+    <arg name="depth_topic" value="$(arg depth_topic)" />
+    <arg name="gen_cloud" value="$(arg gen_cloud)"/>
+    <arg name="gen_cloud_decimation" value="$(arg gen_cloud_decimation)"/>
+    <arg name="gen_cloud_voxel" value="$(arg gen_cloud_voxel)"/>
+    <arg name="imu_topic" value="$(arg imu_topic)"/>
+    <arg name="rviz_cfg" value="$(arg rviz_cfg)" />
+  </include>
+  <node pkg="tf2_ros" type="static_transform_publisher" name="depth_to_imu_broadcaster"
+        args="2.0 0.0 0.0 0.0 0.0 0.0 1 imu_frame depth_frame" />
+
+</launch>
+

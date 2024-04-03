@@ -1,0 +1,2 @@
+depth_estimation:depthimage_to_laserscan:laser_assembler:my_camera_package
+-DCATKIN_DEVEL_PREFIX=/home/yimeng/vineWorkspace/devel -DCMAKE_INSTALL_PREFIX=/home/yimeng/vineWorkspace/install -G Unix Makefiles

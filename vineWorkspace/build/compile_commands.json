@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/yimeng/vineWorkspace/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest    -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/libtest.dir/test/DepthImageToLaserScanTest.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/test/DepthImageToLaserScanTest.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/test/DepthImageToLaserScanTest.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -o CMakeFiles/test_dtl.dir/test/depthimage_to_laserscan_rostest.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/test/depthimage_to_laserscan_rostest.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/test/depthimage_to_laserscan_rostest.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DDepthImageToLaserScan_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4  -fPIC   -o CMakeFiles/DepthImageToLaserScan.dir/src/DepthImageToLaserScan.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScan.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScan.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DDepthImageToLaserScanNodelet_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4  -fPIC   -o CMakeFiles/DepthImageToLaserScanNodelet.dir/src/DepthImageToLaserScanNodelet.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScanNodelet.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScanNodelet.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4    -o CMakeFiles/depthimage_to_laserscan.dir/src/depthimage_to_laserscan.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/depthimage_to_laserscan.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/depthimage_to_laserscan.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/depthimage_to_laserscan",
+  "command": "/usr/bin/c++  -DDepthImageToLaserScanROS_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depthimage_to_laserscan\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4  -fPIC   -o CMakeFiles/DepthImageToLaserScanROS.dir/src/DepthImageToLaserScanROS.cpp.o -c /home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScanROS.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/depthimage_to_laserscan/src/DepthImageToLaserScanROS.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest    -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/test_assembler.dir/test/test_assembler.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/test/test_assembler.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/test/test_assembler.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/point_cloud2_assembler.dir/src/point_cloud2_assembler.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud2_assembler.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud2_assembler.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/point_cloud_assembler.dir/src/point_cloud_assembler.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud_assembler.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud_assembler.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/point_cloud_assembler_srv.dir/src/point_cloud_assembler_srv.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud_assembler_srv.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/point_cloud_assembler_srv.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/merge_clouds.dir/src/merge_clouds.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/merge_clouds.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/merge_clouds.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/laser_scan_assembler.dir/src/laser_scan_assembler.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/laser_scan_assembler.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/laser_scan_assembler.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/laser_scan_assembler_srv.dir/src/laser_scan_assembler_srv.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/src/laser_scan_assembler_srv.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/src/laser_scan_assembler_srv.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/dummy_scan_producer.dir/test/dummy_scan_producer.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/test/dummy_scan_producer.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/test/dummy_scan_producer.cpp"
+},
+{
+  "directory": "/home/yimeng/vineWorkspace/build/laser_assembler",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_assembler\\\" -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/periodic_snapshotter.dir/examples/periodic_snapshotter.cpp.o -c /home/yimeng/vineWorkspace/src/laser_assembler/examples/periodic_snapshotter.cpp",
+  "file": "/home/yimeng/vineWorkspace/src/laser_assembler/examples/periodic_snapshotter.cpp"
+}
+]

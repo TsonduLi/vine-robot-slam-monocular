@@ -1,0 +1,8 @@
+prefix=/home/yimeng/vineWorkspace/devel
+
+Name: laser_assembler
+Description: Description of laser_assembler
+Version: 1.7.7
+Cflags: -I/home/yimeng/vineWorkspace/devel/include -I/home/yimeng/vineWorkspace/src/laser_assembler/include
+Libs: -L${prefix}/lib 
+Requires: tf sensor_msgs message_filters roscpp laser_geometry filters message_runtime

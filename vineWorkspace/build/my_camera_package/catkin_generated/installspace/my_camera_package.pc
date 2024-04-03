@@ -1,0 +1,8 @@
+prefix=/home/yimeng/vineWorkspace/install
+
+Name: my_camera_package
+Description: Description of my_camera_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

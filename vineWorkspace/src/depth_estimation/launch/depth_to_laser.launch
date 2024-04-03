@@ -1,0 +1,20 @@
+<launch>
+  <!-- Arguments for configuring the depthimage_to_laserscan node -->
+  <arg name="range_min" default="0.45"/>
+  <arg name="range_max" default="10.0"/>
+
+  <!-- Launching the depthimage_to_laserscan node -->
+  <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">
+    <!-- Setting parameters for the node -->
+    <param name="output_frame_id" value="laser"/>
+    <param name="range_min" value="$(arg range_min)"/>
+    <param name="range_max" value="$(arg range_max)"/>
+
+    <!-- Subscribe to the depth image topic -->
+    <remap from="image" to="/camera/depth/image_raw"/>
+
+    <!-- Publish to the /scan topic -->
+    <remap from="scan" to="/scan"/>
+  </node>
+</launch>
+

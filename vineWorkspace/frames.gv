@@ -1,0 +1,7 @@
+digraph G {
+"map" -> "odom_frame"[label=" Broadcaster: /rtabmap/rtabmap\nAverage rate: 20.204\nBuffer length: 4.9\nMost recent transform: 1710444992.229\nOldest transform: 1710444987.329\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1710444992.143366"[ shape=plaintext ] ;
+}->"map";
+}
