@@ -11,7 +11,7 @@ This project is dedicated to developing 3D mapping and localization capabilities
 
 ## Data Collection
 
-Our system leverages the [Arduino Nicla Vision](https://store.arduino.cc/products/nicla-vision) as a versatile sensor suite which supports On-board WiFi and Bluetooth capabilities for comprehensive data collection, integrated with the [OpenMV](https://openmv.io/) platform. It employs MicroPython APIs to facilitate the synchronized transmission of multi-modal data, ensuring robust data synchronization through advanced multithreading techniques. The setup efficiently streams a rich dataset, including:
+Our system leverages the [Arduino Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision/) as a versatile sensor suite which supports On-board WiFi and Bluetooth capabilities for comprehensive data collection, integrated with the [OpenMV](https://openmv.io/) platform. It employs MicroPython APIs to facilitate the synchronized transmission of multi-modal data, ensuring robust data synchronization through advanced multithreading techniques. The setup efficiently streams a rich dataset, including:
 
 - 6-axis IMU readings, for detailed motion and orientation data.
 - QVGA video at 10fps, providing visual feedback from the environment.
