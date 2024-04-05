@@ -4,19 +4,21 @@
 This project is dedicated to developing 3D mapping and localization capabilities for a multi-segment "Vine" robot. By integrating a combination of 6-axis IMU, RGB and Depth images, Time of Flight Laser Point, and real-time processing techniques, we enhance the robot's environmental understanding to facilitate improved navigation and autonomy.
 
 ## Features
-- **Depth Estimation**: Implemented using Deep Learning-based semantic segmentation ([DINOv2](https://github.com/isl-org/ZoeDepth)) and depth estimation models ([MiDas](https://github.com/isl-org/MiDaS)).
-- **Data Collection and Transmission**: Utilizes MicroPython APIs on the [OpenMV](https://openmv.io/) platform for concurrent transmission of IMU, sensor images, and laser data via MQTT, ensuring data synchronization with multithreading techniques.
+- **Depth Estimation**: Depth estimation is achieved through Deep Learning-based semantic segmentation and models, specifically using [DINOv2](https://github.com/isl-org/ZoeDepth) and [MiDas](https://github.com/isl-org/MiDaS). Post-estimation, the RGB-D results are calibrated to enhance accuracy and reliability using the [ZoeDepth](https://github.com/isl-org/ZoeDepth) calibration tool. 
+- **Data Transmission**: Utilizes MicroPython APIs on the [OpenMV](https://openmv.io/) platform for concurrent transmission of IMU, sensor images, and laser data via MQTT, ensuring data synchronization with multithreading techniques.
 - **3D Mapping**: Utilizes RGB and Depth data to generate three-dimensional maps of the robot's surroundings.
 - **Robot Localization**: Combines sensor data for accurate positioning and movement within the map, enhanced by Deep Learning-based semantic segmentation and depth estimation models, achieving a localization error below 10% without Lidar.
 - **PointCloud Assembly**: Converts sensor data into a PointCloud2 format for easy visualization and manipulation.
 
+## Data Collection
 
-## Control Strategy
-The project employs an Arduino Nicla Vision for its control strategy, which includes:
-- 6-axis IMU
-- RGB Image capture
-- On-board WiFi and Bluetooth
-- Real-time streaming protocol (RTSP) streaming of QVGA video at 10fps
+Our system leverages the [Arduino Nicla Vision](https://store.arduino.cc/products/nicla-vision) as a versatile sensor suite for comprehensive data collection, integrated with the [OpenMV](https://openmv.io/) platform. It employs MicroPython APIs to facilitate the synchronized transmission of multi-modal data, ensuring robust data synchronization through advanced multithreading techniques. The setup efficiently streams a rich dataset, including:
+
+- 6-axis IMU readings, for detailed motion and orientation data.
+- QVGA video at 10fps, providing visual feedback from the environment.
+- Time of Flight (ToF) Laser Point measurements, for precise distance mapping.
+- On-board WiFi and Bluetooth capabilities, supporting seamless data transmission.
+
 
 ## Performance Optimization
 Performance is enhanced through various techniques such as:
