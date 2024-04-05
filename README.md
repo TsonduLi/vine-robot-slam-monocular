@@ -5,7 +5,6 @@ This project is dedicated to developing 3D mapping and localization capabilities
 
 ## Features
 - **Depth Estimation**: Depth estimation is achieved through Deep Learning-based semantic segmentation and models, specifically using [DINOv2](https://github.com/isl-org/ZoeDepth) and [MiDas](https://github.com/isl-org/MiDaS). Post-estimation, the RGB-D results are calibrated to enhance accuracy and reliability using the [ZoeDepth](https://github.com/isl-org/ZoeDepth) calibration tool. 
-- **Data Transmission**: Utilizes MicroPython APIs on the [OpenMV](https://openmv.io/) platform for concurrent transmission of IMU, sensor images, and laser data via MQTT, ensuring data synchronization with multithreading techniques.
 - **3D Mapping**: Utilizes RGB and Depth data to generate three-dimensional maps of the robot's surroundings.
 - **Robot Localization**: Combines sensor data for accurate positioning and movement within the map, enhanced by Deep Learning-based semantic segmentation and depth estimation models, achieving a localization error below 10% without Lidar.
 - **PointCloud Assembly**: Converts sensor data into a PointCloud2 format for easy visualization and manipulation.
