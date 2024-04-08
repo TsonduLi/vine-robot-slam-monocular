@@ -1,4 +1,4 @@
-# Enabling 3D Mapping and Localization for Multi-segment "Vine" Robot
+# Enabling 3D Mapping and Localization for Multi-segment Vine Robot
 
 ## Overview
 This project is dedicated to developing 3D mapping and localization capabilities for a multi-segment "Vine" robot. By integrating a combination of 6-axis IMU, RGB and Depth images, Time of Flight Laser Point, and real-time processing techniques, we enhance the robot's environmental understanding to facilitate improved navigation and autonomy.
