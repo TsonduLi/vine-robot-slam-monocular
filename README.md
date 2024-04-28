@@ -2,9 +2,13 @@
 
 ## Overview
 This project is dedicated to developing 3D mapping and localization capabilities for a multi-segment "Vine" robot. By integrating a combination of 6-axis IMU, RGB and Depth images, Time of Flight Laser Point, and real-time processing techniques, we enhance the robot's environmental understanding to facilitate improved navigation and autonomy.
+
 ## Demonstration Video
 Click the image below to watch the demonstration video:
-[![Vine Robot Demonstration](https://drive.google.com/file/d/1hyAivFd60tRRFSx0FvNXLG-LkItyhZDE)](https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing)
+
+<a href="https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing">
+  <img src="https://drive.google.com/uc?export=view&id=1hyAivFd60tRRFSx0FvNXLG-LkItyhZDE" width="730" height="574" alt="Vine Robot Demonstration">
+</a>
 
 
 ## Features
