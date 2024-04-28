@@ -5,7 +5,7 @@ This project is dedicated to developing 3D mapping and localization capabilities
 
 ## Demonstration Video
 Click the image below to watch the demonstration video:
-[![Vine Robot Demonstration](https://drive.google.com/uc?export=view&id=1orD6T02gCoKNCI5ZiVkwGCjW6SpTG-4V)](https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing)
+[![Vine Robot Demonstration](https://drive.google.com/file/d/1orD6T02gCoKNCI5ZiVkwGCjW6SpTG-4V/view?usp=sharing)](https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing)
 
 
 ## Features
