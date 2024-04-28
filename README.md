@@ -4,7 +4,9 @@
 This project is dedicated to developing 3D mapping and localization capabilities for a multi-segment "Vine" robot. By integrating a combination of 6-axis IMU, RGB and Depth images, Time of Flight Laser Point, and real-time processing techniques, we enhance the robot's environmental understanding to facilitate improved navigation and autonomy.
 
 ## Demonstration Video
-[![Vine Robot Demonstration](https://drive.google.com/file/d/1orD6T02gCoKNCI5ZiVkwGCjW6SpTG-4V/view?usp=drive_link)](https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing)
+Click the image below to watch the demonstration video:
+[![Vine Robot Demonstration](https://drive.google.com/uc?export=view&id=1orD6T02gCoKNCI5ZiVkwGCjW6SpTG-4V)](https://drive.google.com/file/d/1HP5o8t7EaylewrrqVIK36IUchOBx5_r5/view?usp=sharing)
+
 
 ## Features
 - **Depth Estimation**: Depth estimation is achieved through Deep Learning-based semantic segmentation and models, specifically using [DINOv2](https://github.com/isl-org/ZoeDepth) and [MiDas](https://github.com/isl-org/MiDaS). Post-estimation, the RGB-D results are calibrated to enhance accuracy and reliability using the [ZoeDepth](https://github.com/isl-org/ZoeDepth) calibration tool.
